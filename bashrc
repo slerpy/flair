@@ -1,10 +1,13 @@
 # random
+alias newpy="~/.boilerplater boilerplate-python"
+alias newbash="~/.boilerplater boilerplate-bash"
 alias clean='history -c; clear'
 alias ls='ls --color -h --group-directories-first' # directories first
 alias ll='ls -l'
 alias la='ls -a'
 alias las='ls -al'
 alias ..='cd ..'
+alias timez="~/.world_time"
 
 alias syua='yaourt -Syua'
 alias ys='yaourt -Ss'
@@ -16,7 +19,7 @@ alias record="ffmpeg -f x11grab -s 1920x1080 -r 25 -i :0.0 -f alsa -i hw:0,0 -st
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias speedtest='curl -o /dev/null http://cachefly.cachefly.net/100mb.test; true'
 alias snitch='sudo nmap -sP 10.0.0.0/24 && echo "*** Further details in ~ One Minute, Please Wait ..." && sudo nmap -sP 10.0.0.0/24'
-
+alias dates="date +%H:%M"
 
 
 # ssh
