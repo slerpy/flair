@@ -23,8 +23,8 @@ alias dates="date +%H:%M"
 
 
 # ssh
-alias des='ssh shaden@evoke.desense.net'
-alias desr='ssh admin@evoke.desense.net'
+alias des='ssh shaden@54.149.67.139'
+alias desr='ssh admin@54.149.67.139'
 
 # Shortcut to get the disk size of a directory and contents
 sizeof() {
