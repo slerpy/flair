@@ -1,4 +1,4 @@
-# Gentoorific directing coloring with ls
+# Gentoorific directory coloring with ls
 # Drop in /etc/ i.e., /etc/DIR_COLORS
 # or as ~/.dir_colors
 # my .bashrc on git will call it.
