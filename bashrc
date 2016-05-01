@@ -10,8 +10,8 @@ alias ..='cd ..'
 alias timez="~/.world_time"
 
 alias syua='pacaur -Syua'
-alias ps='pacaur -Ss'
-alias yi='pacaur -S'
+alias pacs='pacaur -Ss'
+alias paci='pacaur -S'
 alias drives='df -h'
 alias record="ffmpeg -f x11grab -s 1920x1080 -r 25 -i :0.0 -f alsa -i hw:0,0 -strict -2"
 
