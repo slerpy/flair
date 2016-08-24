@@ -9,7 +9,7 @@ alias las='ls -al'
 alias ..='cd ..'
 alias timez="~/.world_time"
 
-alias syu='pacaur -Syu'
+alias syua='pacaur -Syua'
 alias pacs='pacaur -Ss'
 alias paci='pacaur -S'
 alias drives='df -h'
