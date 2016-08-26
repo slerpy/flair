@@ -1,3 +1,7 @@
+### DONT FORGET TO DO...
+### git config --global core.excludesfile=/path/to/.gitignore
+
+
 ##
 # scratch files 
 ##
