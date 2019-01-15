@@ -1,9 +1,7 @@
 # Gentoorific directory coloring with ls
 # Drop in /etc/ i.e., /etc/DIR_COLORS
-# or as ~/.dir_colors
-# my .bashrc on git will call it.
+# or in home dir as ~/.dir_colors
 #
-#215
 
 # Configuration file for dircolors, a utility to help you set the
 # LS_COLORS environment variable used by GNU ls with the --color option.

@@ -2,6 +2,7 @@
 # /etc/bash.bashrc
 #
 
+# whew
 # Mashed together bashrc. Main goal was to get the gentoo look
 # for both the prompt and directory colors and attach
 # git prompt and git completion.
