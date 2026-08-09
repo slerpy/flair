@@ -1,6 +1,9 @@
 # if not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# fix obnoxious ass ctrl + shift + v stuff
+printf '\e[?2004l'`
+
 # Load aliases and settings from this dotfiles folder
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 for f in "$DOTFILES_DIR"/aliases.bash "$DOTFILES_DIR"/settings.bash; do
