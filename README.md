@@ -43,3 +43,10 @@ a couple of things require extra stuff... both should be available in jsut about
 - dust, but only for the one piece... namely for nicer tree of disk usage, it will fall back to du -sh if you dont want to install dust.
 - nmap, for local network scan.
 - gifify, needs ffmpeg and gifsicle
+
+
+## NOTE
+
+currently the backups that are created of existing files go into a backup dir inside the .dotfiles folder.  we have a .gitignore that excludes this just to help prevent accidental leakages to git.  if you prefer those backups to go into git, edit the .gitignore file.
+
+<3
