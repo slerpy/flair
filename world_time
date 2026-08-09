@@ -1,0 +1,17 @@
+#!/usr/bin/env dash
+
+echo "What time is it in _______?"
+echo '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+printf 'Local:      %s\n' "$(date +"%-I:%M%p :: %-m/%-d")"
+printf 'UTC:        %s\n' "$(TZ="Etc/UTC" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Mumbai:     %s\n' "$(TZ="Asia/Kolkata" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Paris:      %s\n' "$(TZ="Europe/Paris" date +"%-I:%M%p :: %-m/%-d")"
+printf 'NYC:        %s\n' "$(TZ="America/New_York" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Tokyo:      %s\n' "$(TZ="Asia/Tokyo" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Virgin Islands: %s\n' "$(TZ="America/St_Thomas" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Minneapolis:%s\n' "$(TZ="America/Chicago" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Reykjavik:  %s\n' "$(TZ="Atlantic/Reykjavik" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Melbourne:  %s\n' "$(TZ="Australia/Melbourne" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Berlin:     %s\n' "$(TZ="Europe/Berlin" date +"%-I:%M%p :: %-m/%-d")"
+printf 'Seoul:      %s\n' "$(TZ="Asia/Seoul" date +"%-I:%M%p :: %-m/%-d")"
+echo '----------------------------------'

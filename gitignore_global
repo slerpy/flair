@@ -1,0 +1,225 @@
+### FFS DO NOT BLINDLY TRUST THIS... check to make sure your secrets and trash dont leak to a repo...
+### give a hoot, dont pollute.
+
+
+.secrets
+
+##
+# scratch files
+##
+scratch
+scratch.*
+
+##
+# Various OS files
+##
+.DS_Store
+.DS_Store?
+.AppleDouble
+.AppleDB
+.AppleDesktop
+.apdisk
+.LSOverride
+ICON
+._*
+.VolumeIcon.icns
+.TemporaryItems
+.Trashes
+.com.apple.timemachine.donotpresent
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.Trash-*
+.directory
+*~
+.fuse_hidden*
+.nfs*
+
+##
+# Databases
+##
+.sql
+.sqlite
+
+##
+# Editors / IDEs
+##
+nbproject
+.~lock.*
+.buildpath
+.idea
+.project
+.settings
+_notes
+dwsync.xml
+*.iml
+.idea/
+/out/
+atlassian-ide-plugin.xml
+nbproject/private/
+nbbuilg/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+.vscode/
+*.swp
+*.swo
+*.swn
+.netrwhist
+Session.vim
+*.sublime-workspace
+
+##
+# Build / dependency output
+##
+build/
+dist/
+*.log
+
+##
+# Backup / temp / patch artifacts
+##
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+
+##
+# Environment
+##
+.env
+.env.local
+
+##
+# Secrets / credentials
+##
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.gpg
+*.asc
+id_rsa
+id_ed25519
+id_ecdsa
+*.ppk
+.netrc
+.npmrc
+.envrc
+.aws/credentials
+*.tfvars
+*.tfstate
+*.tfstate.backup
+credentials.json
+secrets.yml
+secrets.yaml
+
+##
+# Node/JS
+##
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+coverage/
+.nyc_output/
+
+##
+# Python
+##
+__pycache__/
+*.pyc
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+*.egg-info/
+htmlcov/
+
+##
+# Rust
+##
+target/
+Cargo.lock
+
+##
+# Go
+##
+*.exe
+*.test
+*.out
+
+##
+# Java
+##
+*.class
+*.jar
+
+##
+# C/C++ and general compiled binaries
+##
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.dll
+core
+core.*
+vgcore.*
+
+##
+# Terraform
+##
+.terraform/
+
+##
+# PHP
+##
+vendor/
+
+##
+# Ruby
+##
+.bundle/
+vendor/bundle/
+
+##
+# Android/Gradle
+##
+.gradle/
+local.properties
+*.apk
+*.aab
+
+##
+# Xcode/Swift
+##
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+##
+# Drupal
+##
+sites/*/*settings*.php
+sites/*/private
+
+##
+# Joomla
+##
+administrator/
+cache/*
+logs/
+configuration.php
+tmp/
+
+##
+# Wordpress
+##
+sitemap.xml
+sitemap.xml.gz
+wp-config.php
