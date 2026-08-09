@@ -1,4 +1,4 @@
-# Flair v3.0
+# Flair v0.3.0
 
 adding bounce to systems step. boingboingboing.
 
