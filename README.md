@@ -5,9 +5,12 @@ adding bounce to systems step. boingboingboing.
 fish, bash, linux, mac (theoretically?)
 
 ## Basic idea
-we keep all of our dotfiles in one place, the .dotfiles dir
+we keep all of our dotfiles in one place, the .dotfiles dir.
+
 we simlink to all of them.
+
 when you need to edit, you know where they're at, in the .dotfiles dir
+
 then just git add .dotfiles or whatever
 
 ### Install
@@ -16,6 +19,7 @@ copy .dotfiles to your ~ home dir
 - or ya know, jsut git clone this repo into ~/.dotfiles
 
 enter .dotfiles dir
+
 make install.sh executable (... chmod +x install.sh)
 ./install.sh
 
