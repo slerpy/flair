@@ -39,7 +39,7 @@ set_bash_prompt() {
     fi
 
     if [ "$EUID" -eq 0 ]; then
-        PS1="${red}\h${blue} \W${git_info}${reset} "
+        PS1="${white}[${blue}\u${white}@${blue}\h${white}]${reset} ${blue}\w${blue}${git_info}${reset} "
     else
         PS1="${white}[${green}\u${white}@${green}\h${white}]${reset} ${blue}\w${green}${git_info}${reset} "
     fi

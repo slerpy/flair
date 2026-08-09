@@ -5,7 +5,7 @@
 printf '\e[?2004l'
 
 # Load aliases and settings from this dotfiles folder
-DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DOTFILES_DIR="$HOME/.dotfiles"
 for f in "$DOTFILES_DIR"/aliases.bash "$DOTFILES_DIR"/settings.bash; do
     [ -f "$f" ] && source "$f"
 done

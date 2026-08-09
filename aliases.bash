@@ -28,9 +28,6 @@ alias drives='df -h'
 alias ytv="yt-dlp -f 'bestvideo+bestaudio/best' --merge-output-format mp4"
 alias yta="yt-dlp -x -f 'bestaudio/best' --audio-format mp3"
 
-# get internal ip
-alias myintip='hostname -I'
-
 if [[ "$(uname)" == "Darwin" ]]; then
     alias ports='netstat -anv | grep LISTEN'
 else
