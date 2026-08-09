@@ -1,8 +1,8 @@
 # Flair v3.0
 
-Adding bounce to systems step. boingboingboing.
+adding bounce to systems step. boingboingboing.
 
-Fish, Bash, Linux, Mac (Theoretically?)
+fish, bash, linux, mac (theoretically?)
 
 ## Basic idea
 we keep all of our dotfiles in one place, the .dotfiles dir
