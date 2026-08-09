@@ -47,6 +47,6 @@ a couple of things require extra stuff... both should be available in jsut about
 
 ## NOTE
 
-currently the backups that are created of existing files go into a backup dir inside the .dotfiles folder.  we have a .gitignore that excludes this just to help prevent accidental leakages to git.  if you prefer those backups to go into git, edit the .gitignore file.
+currently, if backups are created, these  go into a backup dir inside the .dotfiles folder.  there is a .gitignore that excludes these backups in order to help prevent accidental leakages to git.  if you prefer those backups to go into git, edit the .gitignore file.
 
 <3
