@@ -117,6 +117,8 @@ id_ecdsa
 credentials.json
 secrets.yml
 secrets.yaml
+*.local.json
+*.local.conf
 
 ##
 # Node/JS
