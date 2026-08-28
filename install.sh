@@ -46,6 +46,11 @@ for f in "$DOTFILES_DIR"/fish/conf.d/*.fish; do
     link "fish/conf.d/$name" "$HOME/.config/fish/conf.d/$name"
 done
 
+# config.fish loads AFTER conf.d/, so it re-sources our conf.d files at the
+# end to make sure our aliases win over any distro-default config.fish sources
+# (e.g. CachyOS's cachyos-config.fish, which redefines ls/ll/la/etc.)
+link "fish/config.fish" "$HOME/.config/fish/config.fish"
+
 
 mkdir -p "$HOME/.config/git"
 link "gitignore_global" "$HOME/.config/git/ignore"
