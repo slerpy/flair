@@ -2,7 +2,7 @@
 if test (uname) = "Darwin"
     alias ls 'ls -G -a -h'
 else
-    alias ls 'ls --color -a -h --group-directories-first'
+    alias ls 'ls --color -a -l -h --group-directories-first'
 end
 alias ll 'ls -l'
 alias la 'ls -a'

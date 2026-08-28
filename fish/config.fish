@@ -1,9 +1,7 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
-# overwrite greeting
-# potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
+# overwrite greeting - disables fastfetch/CachyOS's startup banner
+function fish_greeting
+end
 
 # CachyOS's config above defines its own aliases (ls, ll, la, etc.) which
 # would otherwise clobber the ones in fish/conf.d/aliases.fish, since
