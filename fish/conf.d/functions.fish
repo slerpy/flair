@@ -264,4 +264,7 @@ end
 function ytv
     yt-dlp -f 'bestvideo+bestaudio/best' --merge-output-format mp4 $argv
 end
-
+# manage the bare-repo dotfiles checkout itself
+function dotfiles
+    git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $argv
+end

@@ -10,6 +10,10 @@ for f in "$DOTFILES_DIR"/aliases.bash "$DOTFILES_DIR"/settings.bash; do
     [ -f "$f" ] && source "$f"
 done
 
+# manage the bare-repo dotfiles checkout itself (bash equivalent of the
+# fish `dotfiles` function in fish/conf.d/functions.fish)
+alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
 # i mean, obviously... - quick cheat-sheet lookup via cht.sh
 cheat() {
     curl cht.sh/$1
